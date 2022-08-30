@@ -1,0 +1,143 @@
+@media only screen and (max-width: 767px){
+.logo a img {
+    max-height: 54px;
+}
+
+
+}
+
+@media only screen and (max-width: 575px) {
+.header-container {
+    padding: 9px 0px;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+.header-container {
+    padding: 0.7rem 1rem;
+    height: 80px;
+}
+.rsnavlist{
+    display: block;
+}
+ul.rsnavlist li {
+    font-size: 36px;
+}
+
+ul.rsnavlist li a {
+    font-weight: 600;
+}
+
+.nav-linkr {
+    padding: 16px 210px;
+}
+.tab-area.col-lg-4.mb-4 {
+    margin-top: 3rem;
+}  
+
+.section-title.text-left h2 {
+    margin-bottom: 6rem;
+}
+header {
+    height: 82px;
+}
+
+.homesbur {
+    margin-top: 12px;
+}
+.fixed-navbar {
+    height: 81px;
+} 
+
+}
+
+@media only screen and (max-width: 993px){
+    .descriptionh{
+        margin-bottom: 25px !important;
+    }
+    .social-share {
+        margin-bottom: 3rem;
+    }
+    
+    .skile-share {
+        margin-bottom: 4rem;
+    }
+    .section-title.text-left h2 {
+        margin-bottom: 6rem;
+    }
+    .testimonial-inner {
+        display: block;
+    }
+    
+    .testimonial-card-description {
+        position: inherit;
+    }
+    
+    .testimonial-card-info {
+        width: 100% !important;
+        max-width: 100%;
+    }
+    
+    .testimonial-rating {
+        width: 8rem;
+        margin-top: 1rem;
+    }
+    
+    .title-area {
+        display: block;
+    }
+
+    .contact-form-wrapper {
+        margin-top: 3rem;
+        margin-left: 0;
+    }
+   
+    
+    }
+
+@media only screen and (max-width: 1199px){
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    z-index: 999;
+    transition: 0.7s;
+    display: flex;
+    opacity: 1;
+}
+.homesbur{
+    display: block !important;
+}
+a.d-none.d-xs-block.homesbur i {
+    color: var(--color-primary);
+    font-size: 34px;
+}
+
+}
+
+
+@media only screen and (max-width: 1199px) and (max-width: 575px){
+#sideNav {
+    display: inline-block !important;
+}
+
+}
+
+
+@media only screen and (max-width: 1199px) and (max-width: 767px){
+#sideNav {
+    display: inline-block !important;
+}
+
+}
+
+
+@media only screen and (max-width: 580px){
+   footer{
+    margin-top: 15px !important;
+   }
+    
+    }

@@ -1,0 +1,147 @@
+.subtitleh {
+    font-size: 14px;
+    font-family: var(--font-secondary);
+    color: var(--color-body-white);
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.titleh {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 22px;
+    font-family: var(--font-secondary);
+    color: var(--color-heading-wv);
+}
+
+.titleh span {
+    color: var(--color-primary);
+}
+
+.header-caption{
+    color: var(--color-heading-wv) !important;
+}
+
+.descriptionh{
+    font-size: 16px;
+    line-height: 30px;
+    color: black;
+    padding-right: 16%;
+    opacity: 0.9;
+    margin-bottom: 12rem;
+}
+
+.titlee {
+    color: var(--color-heading-wv);
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 300;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+ul.social-sharee.d-flex.liststyle li {
+    padding: 9px;
+    list-style: none;
+    background: red;
+    border-radius: 5px;
+    margin: 0px 7px;
+    color: black;
+}
+
+.inner img {
+    border: 0;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.thumbnail::before {
+    box-shadow: var(--shadow-white-3);
+    background: var(--gradient-box-w);
+}
+
+.thumbnail::before {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: calc(100% - 130px);
+    content: "";
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: var(--background-color-1);
+    border-radius: 6px;
+}
+
+
+ul.social-sharee.d-flex.liststyle li {
+    padding: 9px;
+    list-style: none;
+    box-shadow: var(--shadow-white-3);
+    background: var(--gradient-box-w);
+    border-radius: 5px;
+    margin: 0px 7px;
+    color: black;
+}
+
+.thumbnail {
+    position: relative;
+    z-index: 2;
+}
+
+
+ul.social-sharee.d-flex.liststyle {
+    margin: -8px -40px;
+    flex-wrap: wrap;
+}
+
+
+
+ul.social-sharee.d-flex.liststyle li a {
+    width: 40px;
+    height: 40px;
+    line-height: 60px;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    display: flex;
+    font-size: 19px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: var(--transition);
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+ul.social-sharee.d-flex.liststyle li a img {
+    width: 23px;
+}
+
+
+.skile-share span {
+    font-weight: 500;
+}
+
+.social-share span {
+    font-weight: 500;
+}
+
+
+.HomeSlide-content {
+    margin-top: 5rem;
+}

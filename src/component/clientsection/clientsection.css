@@ -1,0 +1,108 @@
+nav-link.active {
+    background: var(--gradient-box-w);
+    box-shadow: var(--shadow-white-3);
+    color: var(--color-primary);
+}
+
+section#clientSection {
+    position: relative;
+    padding: 100px 0;
+}
+
+section#clientSection::after {background: #dce1e4;position: absolute;max-width: 1270px;height: 1px;content: "";top: 0;left: 0;right: 0;margin: 0 auto;}
+
+.clientleftwrapper {
+    width: 100%;
+}
+
+ul.nav.tab-navigation-button.flex-column.nav-pills.me-3 {
+    background: var(--gradient-box-w);
+    box-shadow: var(--shadow-white-3);
+    float: left;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+    margin-top: 0;
+}
+
+li.nav-item {
+    margin: 0;
+    font-size: var(--font-size-b1);
+    line-height: var(--line-height-b1);
+    color: var(--color-body) !important;
+}
+
+a.nav-link {
+    color: var(--color-body-white);
+    border: none;
+    font-size: 20px;
+    height: 90px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    width: 100%;
+    display: flex;
+    margin: 0;
+    font-weight: 400;
+    align-items: center;
+    transition: 0.3s;
+    justify-content: center;
+}
+
+
+.clientbody {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    margin-top: -30px;
+}
+
+.clientmaincontent {
+    margin-top: 30px;
+    flex-basis: 33.33%;
+    padding: 0 15px;
+}
+
+.clientinner.text-center {
+    background: var(--gradient-box-w);
+    box-shadow: var(--shadow-white-3);
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.clientthumbnail {
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.clientthumbnail a img {
+    max-height: 90px;
+}
+
+.clientname {
+    padding: 16px;
+    color: #7c838e;
+}
+
+.clientname span a {
+    color: var(--color-body-white);
+    text-decoration: none;
+}
+
+
+.client-separetor::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    background: #dce1e4;
+    opacity: 0.9;
+}

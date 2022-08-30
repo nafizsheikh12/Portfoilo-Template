@@ -1,0 +1,16 @@
+.blogsection {
+    position: relative;
+    padding: 100px 0;
+}
+
+.blogsection::after {
+    position: absolute;
+    max-width: 1270px;
+    height: 1px;
+    content: "";
+    background: #dce1e4;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

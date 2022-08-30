@@ -1,0 +1,32 @@
+footer {
+    padding: 100px 0;
+    position: relative;
+}
+
+footer::after {
+    background: #dce1e4;
+    position: absolute;
+    max-width: 1270px;
+    height: 1px;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.footerlogo a img {
+    max-height: 100px;
+}
+
+.footer-area.text-center p {
+    color: var(--color-body-white);
+    font-size: 17px;
+    font-family: var(--font-primary);
+    margin-top: 1rem;
+}
+
+.footer-area.text-center p a {
+    color: var(--color-body-white);
+    text-decoration: none;
+}

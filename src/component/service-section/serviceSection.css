@@ -1,0 +1,44 @@
+.subtitlef{
+    color: var(--color-subtitle);
+    letter-spacing: 2px;
+    display: block;
+    line-height: 14px;
+    font-weight: 500;
+    font-family: var(--font-secondary);
+}
+
+.titlef {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-body-white);
+    margin-top: 15px;
+    margin-bottom: 2rem;
+}
+
+.card {
+    padding: 2.6rem;
+    margin-bottom: 4rem;
+    background: var(--gradient-box-w);
+    box-shadow: var(--shadow-white-3);
+    border: navajowhite;
+    border-radius: 9px;
+    margin-right: 2rem;
+}
+
+
+
+
+
+
+.serviceSection.section-gap.section-separator i {
+    font-size: 38px;
+    margin-left: 1rem;
+    color: var(--color-subtitle);
+    margin-bottom: 1.5rem;
+}
+
+.serviceSection.section-gap.section-separator h5 {
+    color: black;
+    font-weight: 600;
+}

@@ -1,0 +1,59 @@
+.subtitle {
+    color: var(--color-subtitle);
+    letter-spacing: 2px;
+    display: block;
+    line-height: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-body-white);
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.prttitle {
+    transition: var(--transition);
+    color: var(--color-heading-wv);
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 34px;
+    display: inline-block;
+}
+
+.prt-card-img img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9px;
+    height: auto;
+}
+
+.prt-card {
+    background: var(--gradient-box-w);
+    box-shadow: var(--shadow-white-3);
+    padding: 1.5rem;
+    border-radius: 13px;
+    margin-bottom: 2.5rem;
+    margin-top: 4rem;
+}
+a.prtcount i {
+    margin-right: 3px !important;
+}
+a.prtcount {
+    margin-left: 8rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+a.dev {
+    color: var(--color-primary);
+    text-decoration: none;
+    text-transform: uppercase;
+}
